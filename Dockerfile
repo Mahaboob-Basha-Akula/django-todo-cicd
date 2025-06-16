@@ -2,8 +2,8 @@ FROM python:3
 
 WORKDIR /data
 
-RUN pip install django==3.2
-RUN python3 -m pip install setuptools
+RUN pip install django==3.0
+
 
 COPY . .
 
