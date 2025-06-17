@@ -1,7 +1,7 @@
 version : "3.3"
 services :
   web :
-     image : shasha9704/note-app:latest
+     build : .
      ports :
          - "8000:8000"
      volumes:
